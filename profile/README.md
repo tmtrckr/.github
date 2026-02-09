@@ -10,6 +10,8 @@
 
 ## Organization
 
+**Repository**: [time-tracker-app](https://github.com/tmtrckr/time-tracker-app) | [plugin-template](https://github.com/tmtrckr/plugin-template) | [plugins-registry](https://github.com/tmtrckr/plugins-registry)
+
 The Time Tracker ecosystem is organized into a collection of repositories, each serving a specific purpose.
 
 ---
@@ -103,6 +105,8 @@ time-tracker-app/
 
 ## The Application
 
+**Repository**: [time-tracker-app](https://github.com/tmtrckr/time-tracker-app)
+
 Time Tracker is a powerful desktop application that automatically tracks your time and provides deep insights into how you spend your workday. Built with performance and privacy in mind, it runs seamlessly in the background while you work.
 
 ---
@@ -188,6 +192,8 @@ Track focused thinking and planning time separately with one click. Perfect for 
 
 ## Plugin Registry
 
+**Repository**: [plugins-registry](https://github.com/tmtrckr/plugins-registry)
+
 The Plugin Registry is the central hub for discovering and managing Time Tracker plugins. It provides a curated marketplace where users can browse, install, and update plugins that extend the application's functionality.
 
 ### Key Features
@@ -197,7 +203,7 @@ The Plugin Registry is the central hub for discovering and managing Time Tracker
 - **Version Management**: Automatic updates and compatibility checking
 - **Plugin Verification**: Verified plugins marked for trust and quality
 
-### Available Plugins
+### Available Plugins {#available-plugins}
 
 The registry includes a growing collection of plugins:
 
@@ -208,20 +214,13 @@ The registry includes a growing collection of plugins:
 | **Pomodoro** | Focus session tracking with Pomodoro timer | [plugin-pomodoro](https://github.com/tmtrckr/plugin-pomodoro) |
 | **Goals** | Time goals with progress tracking and alerts | [plugin-goals](https://github.com/tmtrckr/plugin-goals) |
 
-### Registry Repository
-
-For plugin developers and contributors:
-
-- **Registry Repository**: [plugins-registry](https://github.com/tmtrckr/plugins-registry)
-  - Submit your plugin to the registry
-- **Plugin Template**: [plugin-template](https://github.com/tmtrckr/plugin-template)
-  - Start building your own plugin
-
-> 💡 **For Developers**: See the [plugins-registry repository](https://github.com/tmtrckr/plugins-registry) for detailed information about adding plugins, registry structure, and contribution guidelines.
+> 💡 **For Developers**: See the [plugins-registry repository](https://github.com/tmtrckr/plugins-registry) for detailed information about adding plugins, registry structure, and contribution guidelines. See [Key Repositories](#key-repositories) for all developer resources.
 
 ---
 
 ## Plugin Template
+
+**Repository**: [plugin-template](https://github.com/tmtrckr/plugin-template)
 
 The Plugin Template provides everything you need to create your own Time Tracker plugin. It includes a complete starter project with Rust backend, React frontend, build system, and comprehensive documentation.
 
@@ -253,22 +252,7 @@ Plugins can extend Time Tracker with:
 - **UI Components**: Create custom React components for the interface
 - **Data Hooks**: Process and transform data during operations
 
-### Example Plugins
-
-See real-world implementations:
-
-- **[Projects & Tasks Plugin](https://github.com/tmtrckr/plugin-projects-tasks)**: Project management with activity linking
-- **[Billing Plugin](https://github.com/tmtrckr/plugin-billing)**: Billable time tracking and revenue calculations
-- **[Pomodoro Plugin](https://github.com/tmtrckr/plugin-pomodoro)**: Focus session tracking with timer
-- **[Goals Plugin](https://github.com/tmtrckr/plugin-goals)**: Time goals with progress tracking
-
-### Resources
-
-- **Plugin Template**: [plugin-template](https://github.com/tmtrckr/plugin-template) - Complete starter project
-- **Plugin SDK**: Included in the main [time-tracker-app](https://github.com/tmtrckr/time-tracker-app) repository
-- **Registry**: Submit your plugin to [plugins-registry](https://github.com/tmtrckr/plugins-registry)
-
-> 💡 **Ready to Build?** Visit the [plugin-template repository](https://github.com/tmtrckr/plugin-template) for detailed documentation, code examples, and step-by-step guides.
+> 💡 **Ready to Build?** Visit the [plugin-template repository](https://github.com/tmtrckr/plugin-template) for detailed documentation, code examples, and step-by-step guides. See [Available Plugins](#available-plugins) for example implementations.
 
 ---
 
@@ -281,7 +265,7 @@ Time Tracker is built on a modular, extensible architecture that enables:
 - **Plugin Registry**: Centralized marketplace for discovering and installing plugins
 - **Plugin Template**: Complete starter kit for building custom plugins
 
-### Key Repositories
+### Key Repositories {#key-repositories}
 
 | Repository | Purpose | Link |
 |:----------:|:-------:|:----:|
@@ -289,12 +273,7 @@ Time Tracker is built on a modular, extensible architecture that enables:
 | **Plugin Template** | Starter template for plugin development | [plugin-template](https://github.com/tmtrckr/plugin-template) |
 | **Plugin Registry** | Central registry for plugin discovery | [plugins-registry](https://github.com/tmtrckr/plugins-registry) |
 
-### Available Plugins
-
-- [Projects & Tasks](https://github.com/tmtrckr/plugin-projects-tasks) - Project management
-- [Billing](https://github.com/tmtrckr/plugin-billing) - Billable time tracking
-- [Pomodoro](https://github.com/tmtrckr/plugin-pomodoro) - Focus session timer
-- [Goals](https://github.com/tmtrckr/plugin-goals) - Time goal tracking
+See [Available Plugins](#available-plugins) for the complete list of available plugins.
 
 ---
 
