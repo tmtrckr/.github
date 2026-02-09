@@ -273,8 +273,6 @@ Time Tracker is built on a modular, extensible architecture that enables:
 | **Plugin Template** | Starter template for plugin development | [plugin-template](https://github.com/tmtrckr/plugin-template) |
 | **Plugin Registry** | Central registry for plugin discovery | [plugins-registry](https://github.com/tmtrckr/plugins-registry) |
 
-See [Available Plugins](#available-plugins) for the complete list of available plugins.
-
 ---
 
 > 💡 **Want to contribute?** Check out the [plugin-template](https://github.com/tmtrckr/plugin-template) to start building your own plugin, or browse the [plugins-registry](https://github.com/tmtrckr/plugins-registry) to see what's available.
