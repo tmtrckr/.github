@@ -1,4 +1,4 @@
-# Time Tracker Application Architecture
+# Time Tracker
 
 ## Table of Contents
 1. [Organization](#organization)
